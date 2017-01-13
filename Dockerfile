@@ -52,3 +52,7 @@ sys-img-armeabi-v7a-android-25,sys-img-armeabi-v7a-android-24,sys-img-armeabi-v7
 # Extras
 RUN echo y | android update sdk --no-ui --all --filter \
 extra-android-m2repository,extra-google-m2repository,extra-google-google_play_services,extra-google-analytics_sdk_v2
+
+WORKDIR ${GOCD_HOME}
+
+ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
