@@ -59,7 +59,7 @@ addon-google_apis-google-25,addon-google_apis-google-24,addon-google_apis-google
 # SDKs
 # Please keep these in descending order!
 RUN echo y | android update sdk --no-ui --all --filter \
-android-25,android-24,android-23,android-22,android-21,android-20,android-19,android-17,android-15,android-10
+android-25,android-24,android-23,android-22,android-21,android-20,android-19
 # build tools
 # Please keep these in descending order!
 RUN echo y | android update sdk --no-ui --all --filter \
@@ -68,7 +68,7 @@ build-tools-25.0.2,build-tools-25.0.1,build-tools-25.0.0,build-tools-24.0.3,buil
 # Android System Images, for emulators
 # Please keep these in descending order!
 RUN echo y | android update sdk --no-ui --all --filter \
-sys-img-armeabi-v7a-android-25,sys-img-armeabi-v7a-android-24,sys-img-armeabi-v7a-android-23,sys-img-armeabi-v7a-android-22,sys-img-armeabi-v7a-android-21,sys-img-armeabi-v7a-android-19,sys-img-armeabi-v7a-android-17,sys-img-armeabi-v7a-android-16,sys-img-armeabi-v7a-android-15
+sys-img-armeabi-v7a-android-25,sys-img-armeabi-v7a-android-24,sys-img-armeabi-v7a-android-23,sys-img-armeabi-v7a-android-22,sys-img-armeabi-v7a-android-21,sys-img-armeabi-v7a-android-19
 
 # Extras
 RUN echo y | android update sdk --no-ui --all --filter \
